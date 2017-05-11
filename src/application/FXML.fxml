@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" style="-fx-background-color: Skyblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXMLDocumentController">
+    <children>
+      <Slider fx:id="slider" layoutX="51.0" layoutY="72.0" prefHeight="40.0" prefWidth="207.0" showTickLabels="true" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="80.0" />
+      <TextField fx:id="text" layoutX="80.0" layoutY="135.0" />
+    </children>
+</AnchorPane>
